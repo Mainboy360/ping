@@ -1,0 +1,89 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* fonts*/
+
+.libre-franklin-300 {
+  font-family: "Libre Franklin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.libre-franklin-600 {
+  font-family: "Libre Franklin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.libre-franklin-700 {
+  font-family: "Libre Franklin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+.ping-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px 0px 50px;
+}
+
+
+.header-para-container {
+    margin-top: 30px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.sign-up-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.email-container > p{
+    margin-left: 20px;
+    margin-top: 4px;
+    color: red;
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+input[type="email"] {
+    padding: 12px 140px 12px 20px;
+    border-radius: 20px;
+    outline: none;
+    border-style: none;
+    border: 1px solid  hsl(223, 100%, 88%);
+}
+
+
+button {
+    padding: 12px 40px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    box-shadow: 2px 4px 5px silver;
+}
+
+img[src*="illustration-dashboard.png"] {
+    width: 600px;
+    height: auto;
+}
+
+
+input::placeholder {
+    color: hsl(0, 0%, 59%)
+}
